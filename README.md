@@ -34,16 +34,24 @@
 - R
 - Python
 - HTML
+- SQL
 
-### Supervisioned Learning
+### Statistics
+- Descriptive Analysis
+- Probabilitics
+- Sampling
+- Inference
+- Modeling
+- Testing
+
+### Machine Learning
 - Regression Algorithms
 - Classification Algorithms
+- Clustering Algorithms
+- Latent Trait Algorithms
 - Deep Learning
 - Recommendation Systems
 
-### Unsupervisioned Learning
-- Clustering Algorithms
-- Latent Trait Algorithms
 
 ### Project
 - Data Exploration Projects
