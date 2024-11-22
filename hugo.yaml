@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://www.thiagofmiranda.com
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Thiago's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,9 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Thiago F. Miranda"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+
 # default language for the content
 defaultContentLanguage: en
 
@@ -55,6 +51,10 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+services:
+  googleAnalytics:
+    id: G-GQC96XX86F
+    
 # Site parameters
 params:
   # Background image of the landing page
@@ -68,7 +68,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/thiagofmiranda/thiagofmiranda.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -157,7 +157,7 @@ params:
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: ITDOESNTWORKWITHGA4
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
