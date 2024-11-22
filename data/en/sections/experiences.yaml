@@ -11,63 +11,71 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: Catho Online
+    url: "https://www.catho.com.br"
+    location: São Paulo
+    logo: /images/sections/experiences/catho.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Catho is a leading Brazilian online platform that connects job seekers with employers, offering a wide range of career opportunities across various industries.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Data Scientist
+    start: Sep 2021
+    end: Apr 2024
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+    - Developed and supported machine learning models for tasks such as scoring, ranking, and content recommendations, using Python, R, and AWS tools.
+    - Increased paying user conversions by 11% by identifying key features based on free user behaviours and recommending targeted features for paid users.
+    - Boosted job applications from paying users by 30% by automating CV submissions through a job-CV scoring model.
+    - Built a data framework that automated the end-to-end reporting process, from data extraction to delivering actionable business insights, using tools like Tableau, Power BI, and Miro to communicate insights clearly to stakeholders.
+    - Streamlined data analysis and reporting workflows by integrating diverse data sources, including MySQL, AWS S3, and Google Analytics.
+    
+  - designation: Data Analyst
+    start: May 2019
+    end: Aug 2021
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Created a user conversion propensity model to increase lead conversions, leveraging Python and AWS SageMaker.
+    - Led A/B testing initiatives for product teams, optimising pricing strategies, business models, and new product launches with a focus on enhancing customer experience.
+    - Performed in-depth quantitative analysis across multiple data sources to uncover marketplace insights and identify growth opportunities.
+    - Collaborated with cross-functional teams, including product, engineering, and marketing, to ensure data-driven decision-making.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: Avalia Educacional
+    url: "https://avaliaeducacional.com.br/"
+    location: São Paulo
+    logo: /images/sections/experiences/avalia.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Avalia Educacional, part of Grupo Santillana, is a leading educational assessment provider in Latin America, having reached around 10 million students across 22 countries.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Data Analyst
+    start: Aug 2018
+    end: Apr 2019
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Conducted Item Response Theory (IRT) analyses to evaluate item characteristics and test reliability.
+    - Designed and maintained databases for storing assessment data, ensuring data integrity and scalability.
+    - Collaborated with psychometricians and educational experts to refine assessment models and improve test accuracy.
+    - Automated data extraction and processing pipelines, reducing manual workload and improving efficiency.
+    - Provided insights and recommendations based on data trends and IRT model outputs to enhance decision-making.
+    - Presented data findings and technical results to both technical and non-technical stakeholders
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name: Vunesp Foundation
+    url: "https://www.vunesp.com.br"
+    location: São Paulo
+    logo: /images/sections/experiences/vunesp.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Fundação Vunesp is responsible for organizing and conducting large-scale educational assessments and public selection processes in Brazil.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Data Analyst
+    start: Dec 2017
+    end: Jun 2018
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Conducted Item Response Theory (IRT) analysis to estimate student abilities and evaluate item performance for 3 large-scale assessments in São Paulo and Pará in Brazil.
+    - Developed and delivered detailed educational performance reports for 645 cities in São Paulo, offering schools actionable insights into student achievement and areas for improvement.
+    - Utilised statistical expertise to clean, analyse, and present results from large-scale student databases using MySQL and R, contributing to educational assessments post-degree.
+    - Presented key findings to stakeholders, including government officials and educational institutions, ensuring clear communication of assessment outcomes and recommendations.

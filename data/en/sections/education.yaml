@@ -10,95 +10,73 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: M.Sc. in Statistics
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2023-2025
   institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
+    name: University of São Paulo - USP
+    url: "https://www.icmc.usp.br/en/admission/graduate/statistics"
+    logo: /images/sections/education/usp.svg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
   takenCourses: #(optional)
     # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
+    showGrades: false
+    collapseAfter: 6
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+    - name: Data Science Introduction
+      achieved: 8
+      outOf: 10
+    - name: Multivariate Analysis
+      achieved: 10
+      outOf: 10
+    - name: Statistical Inference
+      achieved: 7
+      outOf: 10
+    - name: Probability Theory
+      achieved: 10
+      outOf: 10
+    - name: Regression Models
+      achieved: 8
+      outOf: 10
+    - name: Latent Trait Models Introduction
+      achieved: 8
+      outOf: 10
   custonSections: #(optional)
     - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      content: Adapitive testing for formative assessments.
     - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
-  icon: fa-university
-  timeframe: 2010-2012
+      content: Profª. Drª Mariana Cúri
+
+- name: B.Sc. in Statistics
+  icon: fa-graduation-cap
+  timeframe: 2013-2017
   institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
+    name: Federal University of Pará - UFPA
+    url: "https://www.faest.icen.ufpa.br/"
+    logo: /images/sections/education/ufpa.jpg
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    # darkLogo: /images/sections/education/university.jpg
+  takenCourses:
+    showGrades: false
+    collapseAfter: 6
+    courses:
+    - name: "Probability Theory"
+    - name: "Statistical Inference"
+    - name: "Mathematical Statistics"
+    - name: "Linear Algebra"
+    - name: "Calculus"
+    - name: "Applied Statistics"
+    - name: "Regression Analysis"
+    - name: "Time Series Analysis"
+    - name: "Experimental Design"
+    - name: "Multivariate Analysis"
+    - name: "Non-parametric Statistics"
+    - name: "Statistical Computing"
+    - name: "Survey Sampling"
+    - name: "Optimization"
+    - name: "Operations Research"
+    - name: "Data Visualization"
+    - name: "Data Mining"
+    - name: "Mathematical Modeling"
+    - name: "Statistical Programming"
