@@ -4,7 +4,8 @@ weight: 10
 menu:
   notes:
     name: Basics
-    identifier: notes-go-basics
-    parent: notes-go
+    identifier: notes-r-basics
+    parent: notes-r
     weight: 10
 ---
+

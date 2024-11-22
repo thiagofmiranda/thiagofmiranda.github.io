@@ -4,7 +4,8 @@ weight: 20
 menu:
   notes:
     name: Advanced
-    identifier: notes-go-advanced
-    parent: notes-go
+    identifier: notes-r-advanced
+    parent: notes-r
     weight: 20
 ---
+
