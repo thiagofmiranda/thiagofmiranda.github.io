@@ -21,45 +21,18 @@ buttons:
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: Machine Learning API
+  logo: /images/sections/projects/api.png
+  role: Author
+  timeline: "Nov 2024 - Present"
+  repo: https://github.com/thiagofmiranda/machine-learning-api
+  summary: "This project provides a **Machine Learning API** that serves machine learning models through a robust and scalable web interface. The API is built using Docker and Docker Compose and is designed to serve predictions based on models imported from an external repository: [Machine Learning Models Repository](https://github.com/thiagofmiranda/machine-learning-models)."
+  tags: ["professional", "machine learning", "api", "cloud"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
-
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
-
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Machine Learning Observability Stack
+  logo: /images/sections/projects/elasticsearch.png
+  role: Author
+  timeline: "Nov 2024 - Present"
+  repo: https://github.com/thiagofmiranda/machine-learning-elk
+  summary: This project sets up a full observability stack to keep an eye on and analyze your Machine Learning (ML) Model API. Using Elasticsearch, Kibana, Logstash, Filebeat, Metricbeat, and Heartbeat, it makes it easy to collect, explore, and visualize logs and metrics. Everything runs with Docker Compose to manage all the containerized services smoothly, based on the [Elastic Stack (ELK) on Docker](https://github.com/deviantony/docker-elk). It’s designed to monitor and support the [Machine Learning API Environment](https://github.com/thiagofmiranda/machine-learning-api), giving you better insights and performance tracking.
+  tags: ["professional", "machine learning", "api","observability", "cloud"]
