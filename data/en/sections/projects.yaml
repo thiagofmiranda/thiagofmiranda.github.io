@@ -21,6 +21,14 @@ buttons:
 
 # your projects
 projects:
+- name: Machine Learning Models
+  logo: /images/sections/projects/ml-models.png
+  role: Author
+  timeline: "Nov 2024 - Present"
+  repo: https://github.com/thiagofmiranda/machine-learning-models
+  summary: "This project is dedicated to the study, training, and storage of machine learning models. It provides Jupyter notebooks for model exploration and training, as well as a structure for storing datasets and trained models ready for deployment. These models can be utilized by the [Machine Learning API project](https://github.com/thiagofmiranda/machine-learning-api) for serving predictions and model-based services."
+  tags: ["professional", "machine learning", "api", "cloud"]
+
 - name: Machine Learning API
   logo: /images/sections/projects/api.png
   role: Author
