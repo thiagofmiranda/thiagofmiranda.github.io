@@ -38,31 +38,30 @@ Below, we can test our AWS API.
   <button id="testApiButton">Call API</button>
 
   <h2>Response:</h2>
-  <pre id="response"></pre> <!-- Exibirá a resposta JSON -->
+  <pre id="response"></pre> 
 
   <script>
     document.getElementById('testApiButton').addEventListener('click', function() {
-      const baseUrl = 'https://cors-anywhere.herokuapp.com/https://yfb41zsxa9.execute-api.us-east-1.amazonaws.com/dev/';
+      const baseUrl = 'https://x76cyvaxif.execute-api.us-east-1.amazonaws.com/dev/';
       
       // Pega os valores dos campos
       const route = document.getElementById('route').value;
       const method = document.getElementById('method').value;
       const body = document.getElementById('body').value;
 
-      const targetUrl = baseUrl + route;  // Concatena a base URL com a rota selecionada
+      const targetUrl = baseUrl + route;  
       
-      // Prepara as opções da requisição
+      
       const options = {
         method: method,
         headers: {
-          'X-Requested-With': 'XMLHttpRequest',
-          'Content-Type': 'application/json' // Garantir que o corpo é JSON
+          'Content-Type': 'application/json' 
         },
       };
 
-      // Se for um POST, adiciona o corpo à requisição
+      
       if (method === 'POST' && body) {
-        options.body = body;  // Passa o corpo da requisição
+        options.body = body;  
       }
 
       // Realiza a requisição
