@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Thiago F. Miranda</title><link>https://www.thiagofmiranda.com/posts/</link><description>Recent content in Posts on Thiago F. Miranda</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 28 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.thiagofmiranda.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>API Test</title><link>https://www.thiagofmiranda.com/posts/projects/teste-api/</link><pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate><guid>https://www.thiagofmiranda.com/posts/projects/teste-api/</guid><description>&lt;h2 id="testing-the-api">Testing the API&lt;/h2>
-&lt;p>Below, we can test our AWS API.&lt;/p>
-&lt;h1>Test API&lt;/h1>
-&lt;!-- Campo para escolher a rota -->
-&lt;p>&lt;label for="route">Choose Route:&lt;/label>
-&lt;select id="route">
-&lt;option value="hc">hc&lt;/option>
-&lt;option value="list-models">list-models&lt;/option>
-&lt;option value="language-detection/predict">language-detection&lt;/option>
-&lt;!-- Adicione mais rotas se necessário -->
-&lt;/select>&lt;/p>
-&lt;!-- Campo para escolher o método -->
-&lt;p>&lt;label for="method">Choose Method:&lt;/label>
-&lt;select id="method">
-&lt;option value="GET">GET&lt;/option>
-&lt;option value="POST">POST&lt;/option>
-&lt;/select>&lt;/p>
-&lt;!-- Campo para inserir o corpo (body) no caso de POST -->
-&lt;p>&lt;label for="body">Body (JSON for POST):&lt;/label>&lt;/p>
-&lt;textarea id="body" rows="5" cols="100" placeholder='{
-"input_data": {
-"text": "This is a test sentence."
-}
-}'>&lt;/textarea>
-&lt;!-- Botão para disparar a requisição -->
-&lt;p>&lt;button id="testApiButton">Call API&lt;/button>&lt;/p></description></item><item><title>Introduction</title><link>https://www.thiagofmiranda.com/posts/about-me/</link><pubDate>Fri, 22 Nov 2024 11:06:25 +0600</pubDate><guid>https://www.thiagofmiranda.com/posts/about-me/</guid><description>&lt;h1 id="about-me">About Me&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Thiago F. Miranda</title><link>https://www.thiagofmiranda.com/posts/</link><description>Recent content in Posts on Thiago F. Miranda</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 28 Nov 2024 11:06:25 +0600</lastBuildDate><atom:link href="https://www.thiagofmiranda.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Machine Learning API Test</title><link>https://www.thiagofmiranda.com/posts/projects/teste-api/</link><pubDate>Thu, 28 Nov 2024 11:06:25 +0600</pubDate><guid>https://www.thiagofmiranda.com/posts/projects/teste-api/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
+&lt;p>I decided to write this post to demonstrate how to test my ML API deployed on AWS, you may find the API project in my repository: &lt;a href="https://github.com/thiagofmiranda/machine-learning-aws-api" target="_blank" rel="noopener">Machine Learning AWS API&lt;/a>. This project aims to create a Python API using FastAPI and deploy it to AWS Lambda. The API is designed to serve predictions based on models imported from an external repository: &lt;a href="https://github.com/thiagofmiranda/machine-learning-models" target="_blank" rel="noopener">Machine Learning Models Repository&lt;/a>. The application is containerized with Docker, providing an isolated and reproducible development environment.&lt;/p></description></item><item><title>Introduction</title><link>https://www.thiagofmiranda.com/posts/personal/about-me/</link><pubDate>Fri, 22 Nov 2024 11:06:25 +0600</pubDate><guid>https://www.thiagofmiranda.com/posts/personal/about-me/</guid><description>&lt;h1 id="about-me">About Me&lt;/h1>
 &lt;p>Hi, I’m Thiago! 👋&lt;/p>
 &lt;p>I’m a passionate &lt;strong>Data Scientist&lt;/strong> with over 6 years of experience in data analytics, machine learning, and statistical modeling. I specialize in building robust machine learning pipelines, automating processes, and delivering actionable insights that drive business decisions. My journey began with a strong foundation in &lt;strong>Statistics&lt;/strong>, which I’m further enhancing through my ongoing &lt;strong>Master’s degree&lt;/strong> at the University of São Paulo, focusing on &lt;strong>Latent Trait Models&lt;/strong>.&lt;/p></description></item></channel></rss>
