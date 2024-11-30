@@ -29,6 +29,14 @@ projects:
   summary: "This project is dedicated to the study, training, and storage of machine learning models. It provides Jupyter notebooks for model exploration and training, as well as a structure for storing datasets and trained models ready for deployment. These models can be utilized by the [Machine Learning API project](https://github.com/thiagofmiranda/machine-learning-api) for serving predictions and model-based services."
   tags: ["professional", "machine learning", "api", "cloud"]
 
+- name: Machine Learning API on AWS
+  logo: /images/sections/projects/aws.png
+  role: Author
+  timeline: "Nov 2024 - Present"
+  repo: https://github.com/thiagofmiranda/machine-learning-aws-api
+  summary: "This project aims to create a Python API using FastAPI and deploy it to AWS using AWS Lambda, and it is designed to serve predictions based on models imported from an external repository: [Machine Learning Models Repository](https://github.com/thiagofmiranda/machine-learning-models). The application is containerized using Docker to provide an isolated and reproducible development environment. AWS SAM CLI is utilized for local testing, building, and deploying the serverless application to AWS. The project demonstrates how to efficiently build and deploy a scalable API with FastAPI on AWS Lambda, leveraging the simplicity and flexibility of Docker and AWS serverless services."
+  tags: ["professional", "machine learning", "api", "cloud"]
+
 - name: Machine Learning API
   logo: /images/sections/projects/api.png
   role: Author
@@ -43,4 +51,4 @@ projects:
   timeline: "Nov 2024 - Present"
   repo: https://github.com/thiagofmiranda/machine-learning-elk
   summary: This project sets up a full observability stack to keep an eye on and analyze your Machine Learning (ML) Model API. Using Elasticsearch, Kibana, Logstash, Filebeat, Metricbeat, and Heartbeat, it makes it easy to collect, explore, and visualize logs and metrics. Everything runs with Docker Compose to manage all the containerized services smoothly, based on the [Elastic Stack (ELK) on Docker](https://github.com/deviantony/docker-elk). It’s designed to monitor and support the [Machine Learning API Environment](https://github.com/thiagofmiranda/machine-learning-api), giving you better insights and performance tracking.
-  tags: ["professional", "machine learning", "api","observability", "cloud"]
+  tags: ["professional", "machine learning", "observability", "cloud"]
